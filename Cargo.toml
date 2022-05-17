@@ -1,0 +1,12 @@
+[package]
+name = "netflow-zmq"
+version = "0.1.0"
+edition = "2021"
+
+
+[profile.release]
+debug = true
+
+[dependencies]
+tokio = { version = "1.18.2", features = ["full"] }
+zmq = "0.9.2"
